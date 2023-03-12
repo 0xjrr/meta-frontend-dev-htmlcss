@@ -45,6 +45,17 @@ section{
     display: flex;
 }
 
+section article img {
+    max-width: 80%;
+    height: auto;
+    padding: 1rem;
+}
+
+section article {
+    padding: 1rem;
+    margin: 1rem;
+}
+
 section ul{
     text-align: center;
     list-style: none;
@@ -52,6 +63,7 @@ section ul{
 section li{
     display: block;
 }
+
 
 article {
     flex: 1;
