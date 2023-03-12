@@ -45,6 +45,14 @@ section{
     display: flex;
 }
 
+section ul{
+    text-align: center;
+    list-style: none;
+}
+section li{
+    display: block;
+}
+
 article {
     flex: 1;
 }
@@ -60,4 +68,9 @@ footer div {
 footer div img {
     max-width: 10%;
     height: auto;
+}
+
+form {
+    padding: 3rem;
+    margin: 0 auto;
 }
